@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\zaipo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\zaipo\\.nuget\\packages"
+    ]
+  }
+}
