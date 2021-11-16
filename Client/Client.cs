@@ -1,20 +1,45 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using System.Text;
-using System.Threading.Tasks;
-using System.Net;
 using System.Net.Sockets;
 
 namespace Client
 {
     class Client
     {
-        public TcpClient socket;
-        public NetworkStream stream;
+        private static readonly TcpClient socket = new TcpClient();
 
-        public ByteBuffer buffer;
-        private byte[] receiveBuffer;
+        private const string IP = "192.168.1.9";
+        private const int PORT = 46495;
+
+        static void Main(string[] args)
+        {
+            try
+            {
+                socket.Connect(IP, PORT);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Error connecting to the server.");
+                return;
+            }
+
+            NetworkStream stream = socket.GetStream();
+            stream.ReadTimeout = 2000;
+
+            //StreamWriter writer = new StreamWriter(stream);
+
+            string request = "Test Request";
+
+            StreamReader reader = new StreamReader(stream, Encoding.UTF8);
+
+            byte[] bytes = Encoding.UTF8.GetBytes(request);
+            stream.Write(bytes, 0, bytes.Length);
+
+            string response = reader.ReadToEnd();
+
+            Console.WriteLine(response);
+        }
 
     }
 }

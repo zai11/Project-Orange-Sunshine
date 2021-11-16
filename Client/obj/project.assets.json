@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Project Orange Sunshine\\Project Orange Sunshine\\MyMarket\\Client.csproj",
+      "projectUniqueName": "C:\\Dev\\Project Orange Sunshine\\Project Orange Sunshine\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "C:\\Dev\\Project Orange Sunshine\\Project Orange Sunshine\\MyMarket\\Client.csproj",
+      "projectPath": "C:\\Dev\\Project Orange Sunshine\\Project Orange Sunshine\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\zaipo\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Project Orange Sunshine\\Project Orange Sunshine\\MyMarket\\obj\\",
+      "outputPath": "C:\\Dev\\Project Orange Sunshine\\Project Orange Sunshine\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\zaipo\\AppData\\Roaming\\NuGet\\NuGet.Config",

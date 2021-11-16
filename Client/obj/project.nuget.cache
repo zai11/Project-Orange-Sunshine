@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zaWjD8ZonnjEi8fckkPD2xBy7i3QT/MUsd4ECWqdn/zkWcc1fU5dNBmRvv121a0zZVEA3EXJu1qKrkwKHfatuw==",
+  "dgSpecHash": "WU+J4AimVddw9q2alg9oJ+x5aPehfBfIXBBepxUoT/gj+nsbkoKm56HoS9mZrYYux7Ju4NVbu2ihn5ZuRfdCKQ==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\Project Orange Sunshine\\Project Orange Sunshine\\MyMarket\\Client.csproj",
+  "projectFilePath": "C:\\Dev\\Project Orange Sunshine\\Project Orange Sunshine\\Client\\Client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

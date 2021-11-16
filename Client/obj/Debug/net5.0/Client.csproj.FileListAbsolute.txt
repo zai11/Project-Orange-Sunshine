@@ -14,3 +14,18 @@ C:\Dev\MyMarket\MyMarket\MyMarket\obj\Debug\net5.0\Client.dll
 C:\Dev\MyMarket\MyMarket\MyMarket\obj\Debug\net5.0\ref\Client.dll
 C:\Dev\MyMarket\MyMarket\MyMarket\obj\Debug\net5.0\Client.pdb
 C:\Dev\MyMarket\MyMarket\MyMarket\obj\Debug\net5.0\Client.genruntimeconfig.cache
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\bin\Debug\net5.0\Client.exe
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\bin\Debug\net5.0\Client.deps.json
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\bin\Debug\net5.0\Client.runtimeconfig.json
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\bin\Debug\net5.0\Client.runtimeconfig.dev.json
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\bin\Debug\net5.0\Client.dll
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\bin\Debug\net5.0\ref\Client.dll
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\bin\Debug\net5.0\Client.pdb
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\Client.AssemblyInfoInputs.cache
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\Client.AssemblyInfo.cs
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\Client.csproj.CoreCompileInputs.cache
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\Client.dll
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\ref\Client.dll
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\Client.pdb
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\Client.genruntimeconfig.cache
