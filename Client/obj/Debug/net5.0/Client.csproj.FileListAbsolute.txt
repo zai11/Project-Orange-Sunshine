@@ -21,6 +21,7 @@ C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\bin\Debug\net5.0\C
 C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\bin\Debug\net5.0\Client.dll
 C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\bin\Debug\net5.0\ref\Client.dll
 C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\bin\Debug\net5.0\Client.pdb
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\Client.csproj.AssemblyReference.cache
 C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\Client.GeneratedMSBuildEditorConfig.editorconfig
 C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\Client.AssemblyInfoInputs.cache
 C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Client\obj\Debug\net5.0\Client.AssemblyInfo.cs

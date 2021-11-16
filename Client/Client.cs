@@ -27,19 +27,33 @@ namespace Client
             NetworkStream stream = socket.GetStream();
             stream.ReadTimeout = 2000;
 
-            //StreamWriter writer = new StreamWriter(stream);
-
             string request = "Test Request";
-
-            StreamReader reader = new StreamReader(stream, Encoding.UTF8);
-
             byte[] bytes = Encoding.UTF8.GetBytes(request);
             stream.Write(bytes, 0, bytes.Length);
 
-            string response = reader.ReadToEnd();
+            try
+            {
+                string response = GetResponse(ref stream);
+                Console.WriteLine(response);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e);
+            }
 
-            Console.WriteLine(response);
+            Console.ReadLine();
         }
 
+        private static string GetResponse(ref NetworkStream stream)
+        {
+            byte[] buffer = new byte[4096];
+            int bytesRead = stream.Read(buffer, 0, buffer.Length);
+            string response = Encoding.UTF8.GetString(buffer, 0, bytesRead);
+
+            if (response[response.Length - 2] != '\r' || response[response.Length - 1] != '\n')
+                throw new Exception("Response had an invalid terminator suffix.");
+
+            return response;
+        }
     }
 }
