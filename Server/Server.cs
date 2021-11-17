@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
@@ -15,7 +16,7 @@ namespace Server
         {
             try
             {
-                socketListener = new TcpListener(port);
+                socketListener = new TcpListener(IPAddress.Any, port);
                 socketListener.Start();
                 Console.WriteLine("Web Server Running... Press ^C to stop...");
                 // Start the thread which calls the method 'StartListen'

@@ -18,3 +18,4 @@ C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Server\obj\Debug\net5.0\S
 C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Server\obj\Debug\net5.0\ref\Server.dll
 C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Server\obj\Debug\net5.0\Server.pdb
 C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Server\obj\Debug\net5.0\Server.genruntimeconfig.cache
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Server\obj\Debug\net5.0\Server.csproj.AssemblyReference.cache

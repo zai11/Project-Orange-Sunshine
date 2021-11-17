@@ -9,7 +9,7 @@ namespace Client
     {
         private static readonly TcpClient socket = new TcpClient();
 
-        private const string IP = "192.168.1.9";
+        private const string IP = "192.168.1.25";
         private const int PORT = 46495;
 
         static void Main(string[] args)
