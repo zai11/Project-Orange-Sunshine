@@ -1,0 +1,12 @@
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\bin\Debug\net6.0\Shared.deps.json
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\bin\Debug\net6.0\Shared.dll
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\bin\Debug\net6.0\ref\Shared.dll
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\bin\Debug\net6.0\Shared.pdb
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\obj\Debug\net6.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\obj\Debug\net6.0\Shared.AssemblyInfoInputs.cache
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\obj\Debug\net6.0\Shared.AssemblyInfo.cs
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\obj\Debug\net6.0\Shared.csproj.CoreCompileInputs.cache
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\obj\Debug\net6.0\Shared.dll
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\obj\Debug\net6.0\ref\Shared.dll
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\obj\Debug\net6.0\Shared.pdb
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Shared\obj\Debug\net6.0\Shared.csproj.AssemblyReference.cache

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<products>
+  <product>
+    <id>0</id>
+    <name>A test product</name>
+    <description>This is the description</description>
+    <price>1</price>
+  </product>
+  <product>
+    <id>1</id>
+    <name>A second product</name>
+    <description>This is a second product and its description. It has now been updated.</description>
+    <price>40.99</price>
+  </product>
+  <product>
+    <id>2</id>
+    <name>A third product</name>
+    <description>This is a third product</description>
+    <price>3000</price>
+  </product>
+  <product>
+    <id>3</id>
+    <name>Product 4: A New Hope</name>
+    <description>This is the fourth product</description>
+    <price>9999</price>
+  </product>
+  <product>
+    <id>4</id>
+    <name>Product 5: The Vendor Strikes Back</name>
+    <description>This is the fifth product</description>
+    <price>123910</price>
+  </product>
+  <product>
+    <id>5</id>
+    <name>Product 6; Return of the Patron</name>
+    <description>adoinado</description>
+    <price>12301</price>
+  </product>
+  <product>
+    <id>6</id>
+    <name>Product 7: The Product Awakens</name>
+    <description>This is the seventh product</description>
+    <price>9410</price>
+  </product>
+  <product>
+    <id>7</id>
+    <name>Product 8: The Last Patron</name>
+    <description>This is the eighth product</description>
+    <price>12031</price>
+  </product>
+  <product>
+    <id>8</id>
+    <name>Product 9: Rise of Crypto</name>
+    <description>This is the ninth product</description>
+    <price>14901</price>
+  </product>
+  <product>
+    <id>9</id>
+    <name>Product 10</name>
+    <description>eqndo</description>
+    <price>39120</price>
+  </product>
+  <product>
+    <id>10</id>
+    <name>Product 11</name>
+    <description>sdjifns</description>
+    <price>12930</price>
+  </product>
+  <product>
+    <id>11</id>
+    <name>Product 12</name>
+    <description>dionqd</description>
+    <price>9301</price>
+  </product>
+</products>

@@ -1,0 +1,59 @@
+﻿<Window x:Class="ProjectOrangeSunshine.Patron.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectOrangeSunshine.Patron"
+        ResizeMode="NoResize"
+        mc:Ignorable="d"
+        Title="Project Orange Sunshine || Patron" Height="450" Width="800">
+    <Grid Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid Name="TopBarGrid" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Grid Name="ConnectionGrid" Margin="10" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <TextBox Name="ConnectionTB" Height="30" VerticalContentAlignment="Center" Grid.Column="0" />
+                <Button Name="ConnectionButton" Height="30" Click="ConnectButtonClick" Grid.Column="1">Connect</Button>
+            </Grid>
+            <Button Name="ViewMessagesButton" Height="30" Width="150" Click="ViewMessageButtonClick" Grid.Column="1">View Messages</Button>
+            <Grid Name="RightGrid" Margin="10" Grid.Column="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+                <Button Name="ViewCartButton" Height="30" Click="ViewCartButtonClick" Grid.Column="0">View Cart/Checkout</Button>
+                <Button x:Name="ViewProfileButton" Height="30" Click="ViewProfileButtonClick" Grid.Column="1">View Profile</Button>
+            </Grid>
+        </Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Grid.Row="1">
+            <DataGrid Name="ProductsGrid" IsReadOnly="True" SelectionChanged="ChangeSelectedProduct"></DataGrid>
+        </ScrollViewer>
+        <Grid Name="BottomBarGrid" Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Grid Name="StatusGrid" Margin="10" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Label Name="StatusLabel" Content="Connecting to 192.168.1.9" VerticalAlignment="Bottom" Grid.Column="0" />
+            </Grid>
+            <Button Name="ProductReviewsButton" Width="100" Height="30" IsEnabled="False" Grid.Column="1" Click="ProductReviewsButtonClick">Product Reviews</Button>
+            <Button Name="AddToCartButton" Width="100" Height="30" IsEnabled="False" Grid.Column="2" Click="AddToCartButtonClick">Add to cart</Button>
+        </Grid>
+    </Grid>
+</Window>

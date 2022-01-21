@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<messages>
+  <message>
+    <id>0</id>
+    <toIP>192.168.1.9</toIP>
+    <fromIP>192.168.1.25</fromIP>
+    <title>A test message</title>
+    <body>A changed body</body>
+    <timestamp>18/12/2021 13:00:04 GMT</timestamp>
+  </message>
+  <message>
+    <id>1</id>
+    <toIP>192.168.1.9</toIP>
+    <fromIP>192.168.1.25</fromIP>
+    <title>Another message</title>
+    <body>The first one should be deleted!</body>
+    <timestamp>19/12/2021 23:30:24 GMT</timestamp>
+  </message>
+</messages>

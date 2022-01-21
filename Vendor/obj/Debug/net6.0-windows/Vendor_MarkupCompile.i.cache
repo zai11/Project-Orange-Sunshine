@@ -1,0 +1,20 @@
+﻿Vendor
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Vendor\obj\Debug\net6.0-windows\
+Vendor
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Dev\Project Orange Sunshine\Project Orange Sunshine\Vendor\App.xaml
+71671335704
+21464570574
+18872504925
+195-850926741
+AddProduct.xaml;AddProductError.xaml;ChatButton.xaml;ErrorMessage.xaml;MainWindow.xaml;Messages.xaml;UpdateProduct.xaml;
+
+True
+

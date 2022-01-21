@@ -1,0 +1,18 @@
+[server] MESSAGE: Internal Server Running...
+[client] WARNING: There is no connection open currently.
+[client] MESSAGE: IP: '192.168.1.22', PORT: '46485'
+[client] MESSAGE: Response Length: 010938
+[client] MESSAGE: responseSize: 10938
+[client] MESSAGE: productData: 0, A test product, This is the description, 1  1, A second product, This is a second product and its description. It has now been updated., 40.99  2, A third product, This is a third product, 3000  3, Product 4: A New Hope, This is the fourth product, 9999  4, Product 5: The Vendor Strikes Back, This is the fifth product, 123910  5, Product 6; Return of the Patron, adoinado, 12301  6, Product 7: The Product Awakens, This is the seventh product, 9410  7, Product 8: The Last Patron, This is the eighth product, 12031  8, Product 9: Rise of Crypto, This is the ninth product, 14901  9, Product 10, eqndo, 39120  10, Product 11, sdjifns, 12930  11, Product 12, dionqd, 9301  }
+[client] MESSAGE: DEBUG: 0, A test product, This is the description, 1 
+[client] MESSAGE: DEBUG:  1, A second product, This is a second product and its description. It has now been updated., 40.99 
+[client] MESSAGE: DEBUG:  2, A third product, This is a third product, 3000 
+[client] MESSAGE: DEBUG:  3, Product 4: A New Hope, This is the fourth product, 9999 
+[client] MESSAGE: DEBUG:  4, Product 5: The Vendor Strikes Back, This is the fifth product, 123910 
+[client] MESSAGE: DEBUG:  5, Product 6; Return of the Patron, adoinado, 12301 
+[client] MESSAGE: DEBUG:  6, Product 7: The Product Awakens, This is the seventh product, 9410 
+[client] MESSAGE: DEBUG:  7, Product 8: The Last Patron, This is the eighth product, 12031 
+[client] MESSAGE: DEBUG:  8, Product 9: Rise of Crypto, This is the ninth product, 14901 
+[client] MESSAGE: DEBUG:  9, Product 10, eqndo, 39120 
+[client] MESSAGE: DEBUG:  10, Product 11, sdjifns, 12930 
+[client] MESSAGE: DEBUG:  11, Product 12, dionqd, 9301 
